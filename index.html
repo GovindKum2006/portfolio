@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>Deepali Chouksey | Aspiring Software Engineer & AI/ML Developer</title>
+  <meta name="title" content="Deepali Chouksey | Aspiring Software Engineer & AI/ML Developer">
+  <meta name="description" content="Portfolio of Deepali Chouksey - Aspiring Software Engineer and AI/ML Developer based in Bhopal, MP, India. Explore technical skills, machine learning projects, and academic achievements.">
+  <meta name="keywords" content="Deepali Chouksey, Software Engineer, AI ML Developer, Python, Machine Learning, Portfolio, Computer Science, Bhopal">
+  <meta name="author" content="Deepali Chouksey">
+  <meta name="theme-color" content="#070a13">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Deepali Chouksey | Aspiring Software Engineer & AI/ML Developer">
+  <meta property="og:description" content="Portfolio of Deepali Chouksey featuring AI/ML projects, software engineering skills, and problem solving.">
+  <meta property="og:image" content="assets/profile-placeholder.svg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Deepali Chouksey | Aspiring Software Engineer & AI/ML Developer">
+  <meta property="twitter:description" content="Portfolio of Deepali Chouksey featuring AI/ML projects, software engineering skills, and problem solving.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Google Fonts: Outfit, Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@400;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6.5.1 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Interactive Particle Background Canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Ambient Light Orbs -->
+  <div class="ambient-orb ambient-orb-1" aria-hidden="true"></div>
+  <div class="ambient-orb ambient-orb-2" aria-hidden="true"></div>
+  <div class="ambient-orb ambient-orb-3" aria-hidden="true"></div>
+
+  <!-- ==========================================================================
+       NAVBAR
+       ========================================================================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="#home" class="nav-brand" aria-label="Deepali Chouksey Home">
+        <span class="brand-icon"><i class="fa-solid fa-code"></i></span>
+        <span>Deepali<span class="brand-code">.dev</span></span>
+      </a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#certificates" class="nav-link">Certificates</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary btn-sm">
+          <span>Let's Talk</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <header class="section hero" id="home">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content reveal">
+          <div class="status-badge">
+            <span class="pulse-dot"></span>
+            <span>Available for Internship &amp; Full-Time Roles</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <br>
+            <span class="gradient-text">Deepali Chouksey</span>
+          </h1>
+
+          <div class="typing-wrapper">
+            <span>&gt;&nbsp;</span>
+            <span id="typed-text" class="typed-text">Aspiring Software Engineer</span>
+          </div>
+
+          <p class="hero-description">
+            Passionate Computer Science student and AI/ML developer dedicated to architecting efficient software systems, solving challenging algorithmic problems, and developing intelligent, real-world solutions.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-folder-open"></i>
+              <span>View Projects</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fa-regular fa-envelope"></i>
+              <span>Contact Me</span>
+            </a>
+            <a href="mailto:deepalichouksey36@gmail.com?subject=Resume%20Request%20-%20Deepali%20Chouksey" class="btn btn-secondary" title="Request Official Resume">
+              <i class="fa-solid fa-file-arrow-down"></i>
+              <span>Resume</span>
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <a href="https://www.linkedin.com/in/deepali-chouksey-306528332" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn Profile" aria-label="Deepali Chouksey LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <!-- Editable GitHub Link: Update with your official profile username -->
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub Profile (Add your profile handle)" aria-label="Deepali Chouksey GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="mailto:deepalichouksey36@gmail.com" class="social-link" title="Email Deepali" aria-label="Email Deepali Chouksey">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://maps.google.com/?q=Bhopal,Madhya+Pradesh,India" target="_blank" rel="noopener noreferrer" class="social-link" title="Bhopal, MP, India" aria-label="Location Bhopal">
+              <i class="fa-solid fa-location-dot"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper reveal">
+          <div class="avatar-container glass-card">
+            <div class="avatar-inner">
+              <!-- Deepali's Profile Photo: Place real image at assets/profile.jpg. Automatically falls back to high-tech SVG if not yet uploaded -->
+              <img 
+                src="assets/profile.jpg" 
+                alt="Deepali Chouksey - Aspiring Software Engineer & AI/ML Developer" 
+                class="avatar-img"
+                id="hero-avatar"
+                onerror="this.onerror=null; this.src='assets/profile-placeholder.svg';"
+              >
+            </div>
+
+            <!-- Floating Badges -->
+            <div class="floating-badge badge-top-right">
+              <div class="badge-icon"><i class="fa-solid fa-brain"></i></div>
+              <div>
+                <span style="display:block; font-size:0.75rem; color:var(--text-dim);">Specialization</span>
+                <span>AI / ML Dev</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom-left">
+              <div class="badge-icon"><i class="fa-solid fa-code-merge"></i></div>
+              <div>
+                <span style="display:block; font-size:0.75rem; color:var(--text-dim);">Core Focus</span>
+                <span>Clean Code &amp; DSA</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       ABOUT ME SECTION
+       ========================================================================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">
+          <i class="fa-regular fa-user"></i>
+          <span>01. About Me</span>
+        </div>
+        <h2 class="section-title">Driven by Curiosity, <span class="gradient-text">Powered by Code</span></h2>
+        <p class="section-subtitle">
+          Bridging solid computer science principles with modern artificial intelligence to build software that creates real impact.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text-card glass-card reveal">
+          <p>
+            Hello! I'm <strong>Deepali Chouksey</strong>, a Computer Science student and technology enthusiast based in <strong>Bhopal, Madhya Pradesh, India</strong>. I combine rigorous analytical thinking with hands-on development expertise across software engineering and AI/ML ecosystems.
+          </p>
+          <p>
+            My journey began with deep curiosity about how software algorithms scale and power decision-making. Today, I actively build applications using <strong>Python, C, C++, and JavaScript</strong>, applying strong foundations in <strong>Data Structures and Algorithms</strong> to write clean, maintainable, and high-performance code.
+          </p>
+          <p>
+            My primary aspiration is to excel as a <strong>Software Engineer &amp; AI/ML Developer</strong>, contributing to forward-looking teams where I can solve challenging engineering problems, optimize machine learning models, and deliver user-centric software.
+          </p>
+
+          <div class="about-features">
+            <div class="about-feat-item">
+              <i class="fa-solid fa-microchip"></i>
+              <span>AI &amp; Machine Learning</span>
+            </div>
+            <div class="about-feat-item">
+              <i class="fa-solid fa-cubes"></i>
+              <span>Data Structures &amp; Algorithms</span>
+            </div>
+            <div class="about-feat-item">
+              <i class="fa-solid fa-laptop-code"></i>
+              <span>Full-Stack Web Dev</span>
+            </div>
+            <div class="about-feat-item">
+              <i class="fa-solid fa-users-gear"></i>
+              <span>Team Collaboration &amp; Git</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-stats-grid reveal">
+          <div class="stat-card glass-card">
+            <div class="stat-icon"><i class="fa-solid fa-laptop-file"></i></div>
+            <div class="stat-value">CS &amp; IT</div>
+            <div class="stat-label">Academic Background</div>
+          </div>
+
+          <div class="stat-card glass-card">
+            <div class="stat-icon"><i class="fa-solid fa-diagram-project"></i></div>
+            <div class="stat-value">AI / ML</div>
+            <div class="stat-label">Core Passion &amp; Focus</div>
+          </div>
+
+          <div class="stat-card glass-card">
+            <div class="stat-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="stat-value">Bhopal</div>
+            <div class="stat-label">Madhya Pradesh, India</div>
+          </div>
+
+          <div class="stat-card glass-card">
+            <div class="stat-icon"><i class="fa-solid fa-rocket"></i></div>
+            <div class="stat-value">2026</div>
+            <div class="stat-label">Eager for Opportunities</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SKILLS SECTION
+       ========================================================================== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">
+          <i class="fa-solid fa-bolt"></i>
+          <span>02. Technical Skills</span>
+        </div>
+        <h2 class="section-title">My Tech Stack &amp; <span class="gradient-text">Core Competencies</span></h2>
+        <p class="section-subtitle">
+          Comprehensive skill set covering programming languages, developer tools, algorithms, and artificial intelligence frameworks.
+        </p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="skills-filter reveal">
+        <button class="filter-btn active" data-filter="all">All Skills</button>
+        <button class="filter-btn" data-filter="language">Languages</button>
+        <button class="filter-btn" data-filter="aiml">AI / ML</button>
+        <button class="filter-btn" data-filter="web">Web Tech</button>
+        <button class="filter-btn" data-filter="tools">Tools &amp; Core</button>
+      </div>
+
+      <div class="skills-grid reveal">
+        <!-- Python -->
+        <div class="skill-card glass-card" data-category="language" data-tech="python">
+          <div class="skill-icon-wrap"><i class="fa-brands fa-python"></i></div>
+          <h3 class="skill-name">Python</h3>
+          <span class="skill-level-badge">Advanced • ML / Backend</span>
+          <div class="skill-bar-outer">
+            <div class="skill-bar-fill" data-progress="92%"></div>
+          </div>
+        </div>
+
+        <!-- C -->
+        <div class="skill-card glass-card" data-category="language" data-tech="c">
+          <div class="skill-icon-wrap"><i class="fa-solid fa-c"></i></div>
+          <h3 class="skill-name">C</h3>
+          <span class="skill-level-badge">Proficient • Systems / Logic</span>
+          <div class="skill-bar-outer">
+            <div class="skill-bar-fill" data-progress="85%"></div>
+          </div>
+        </div>
+
+        <!-- C++ -->
+        <div class="skill-card glass-card" data-category="language" data-tech="cpp">
+          <div class="skill-icon-wrap"><i class="fa-solid fa-file-code"></i></div>
+          <h3 class="skill-name">C++</h3>
+          <span class="skill-level-badge">Proficient • DSA / OOP</span>
+          <div class="skill-bar-outer">
+            <div class="skill-bar-fill" data-progress="88%"></div>
+          </div>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="skill-card glass-card" data-category="language" data-tech="javascript">
+          <div class="skill-icon-wrap"><i class="fa-brands fa-js"></i></div>
+          <h3 class="skill-name">JavaScript</h3>
+          <span class="skill-level-badge">Intermediate • Frontend / ES6</span>
+          <div class="skill-bar-outer">
+            <div class="skill-bar-fill" data-progress="84%"></div>
+          </div>
+        </div>
+
+        <!-- HTML5 -->
+        <div class="skill-card glass-card" data-category="web" data-tech="html">
+          <div class="skill-icon-wrap"><i class="fa-brands fa-html5"></i></div>
+          <h3 class="skill-name">HTML5</h3>
+          <span class="skill-level-badge">Advanced • Semantic &amp; SEO</span>
+          <div class="skill-bar-outer">
+            <div class="skill-bar-fill" data-progress="95%"></div>
+          </div>
+        </div>
+
+        <!-- CSS3 -->
+        <div class="skill-card glass-card" data-category="web" data-tech="css">
+          <div class="skill-icon-wrap"><i class="fa-brands fa-css3-alt"></i></div>
+          <h3 class="skill-name">CSS3</h3>
+          <span class="skill-level-badge">Advanced • Responsive &amp; UI</span>
+          <div class="skill-bar-outer">
+            <div class="skill-bar-fill" data-progress="90%"></div>
+          </div>
+        </div>
+
+        <!-- AI / ML -->
+        <div class="skill-card glass-card" data-category="aiml" data-tech="aiml">
+          <div class="skill-icon-wrap"><i class="fa-solid fa-network-wired"></i></div>
+          <h3 class="skill-name">AI / ML</h3>
+          <span class="skill-level-badge">Specialization • Models &amp; Data</span>
+          <div class="skill-bar-outer">
+            <div class="skill-bar-fill" data-progress="86%"></div>
+          </div>
+        </div>
+
+        <!-- Data Structures & Algorithms -->
+        <div class="skill-card glass-card" data-category="tools" data-tech="dsa">
+          <div class="skill-icon-wrap"><i class="fa-solid fa-cubes-stacked"></i></div>
+          <h3 class="skill-name">DSA</h3>
+          <span class="skill-level-badge">Core • Problem Solving</span>
+          <div class="skill-bar-outer">
+            <div class="skill-bar-fill" data-progress="87%"></div>
+          </div>
+        </div>
+
+        <!-- Git -->
+        <div class="skill-card glass-card" data-category="tools" data-tech="git">
+          <div class="skill-icon-wrap"><i class="fa-brands fa-git-alt"></i></div>
+          <h3 class="skill-name">Git</h3>
+          <span class="skill-level-badge">Proficient • Version Control</span>
+          <div class="skill-bar-outer">
+            <div class="skill-bar-fill" data-progress="88%"></div>
+          </div>
+        </div>
+
+        <!-- GitHub -->
+        <div class="skill-card glass-card" data-category="tools" data-tech="github">
+          <div class="skill-icon-wrap"><i class="fa-brands fa-github"></i></div>
+          <h3 class="skill-name">GitHub</h3>
+          <span class="skill-level-badge">Proficient • Collaboration</span>
+          <div class="skill-bar-outer">
+            <div class="skill-bar-fill" data-progress="89%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       PROJECTS SECTION
+       ========================================================================== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">
+          <i class="fa-solid fa-code-fork"></i>
+          <span>03. Featured Projects</span>
+        </div>
+        <h2 class="section-title">Engineered with Precision &amp; <span class="gradient-text">Innovation</span></h2>
+        <p class="section-subtitle">
+          Showcasing intelligent machine learning systems, algorithm engineering, and scalable web solutions.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1: AI Medical Diagnostics -->
+        <div class="project-card glass-card reveal">
+          <div class="project-preview">
+            <div class="project-preview-bg">
+              <div class="project-code-art">
+                &gt; import tensorflow as tf<br>
+                &gt; model = tf.keras.models.load_model('pneumonia_cnn.h5')<br>
+                &gt; prediction = model.predict(image_tensor)<br>
+                &gt; Accuracy: 96.4% | Precision: 0.95
+              </div>
+            </div>
+            <div class="project-icon-floating"><i class="fa-solid fa-dna"></i></div>
+            <span class="project-category">AI / Deep Learning</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Medical AI - Disease &amp; Chest Classifier</h3>
+            <p class="project-desc">
+              An intelligent computer vision system leveraging Convolutional Neural Networks (CNN) and Transfer Learning to detect pulmonary anomalies and classify medical X-ray imagery with high clinical accuracy.
+            </p>
+            <div class="project-tags">
+              <span class="tag-badge">Python</span>
+              <span class="tag-badge">TensorFlow / PyTorch</span>
+              <span class="tag-badge">OpenCV</span>
+              <span class="tag-badge">AI / ML</span>
+            </div>
+            <div class="project-actions">
+              <!-- Placeholder link: Deepali can point to her repository -->
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" title="View Project Source Code">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+              </a>
+              <a href="#contact" class="btn btn-primary btn-sm" title="Explore Live Demo or Project Presentation">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <span>Live Demo</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: AlgoPulse DSA Visualizer -->
+        <div class="project-card glass-card reveal">
+          <div class="project-preview">
+            <div class="project-preview-bg">
+              <div class="project-code-art">
+                &gt; Dijkstra(graph, startNode)<br>
+                &gt; HeapPriorityQueue.extractMin()<br>
+                &gt; Time: O((V + E) log V)<br>
+                &gt; Path rendered: 42 steps verified
+              </div>
+            </div>
+            <div class="project-icon-floating"><i class="fa-solid fa-network-wired"></i></div>
+            <span class="project-category">DSA &amp; Web</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">AlgoPulse - Interactive DSA Visualizer</h3>
+            <p class="project-desc">
+              Interactive visualization suite demonstrating sorting mechanisms (QuickSort, MergeSort), pathfinding algorithms (A*, Dijkstra), and binary search trees with real-time speed control and step explanations.
+            </p>
+            <div class="project-tags">
+              <span class="tag-badge">JavaScript</span>
+              <span class="tag-badge">Data Structures</span>
+              <span class="tag-badge">Algorithms</span>
+              <span class="tag-badge">HTML5 / CSS3</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" title="View Source Code">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+              </a>
+              <a href="#contact" class="btn btn-primary btn-sm" title="Live Interactive Demo">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <span>Live Demo</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Smart Market & Analytics Forecaster -->
+        <div class="project-card glass-card reveal">
+          <div class="project-preview">
+            <div class="project-preview-bg">
+              <div class="project-code-art">
+                &gt; from sklearn.ensemble import RandomForestRegressor<br>
+                &gt; feature_matrix = df[['EMA_50', 'RSI', 'Volume']]<br>
+                &gt; R2 Score: 0.912 | MAPE: 2.1%<br>
+                &gt; Trend status: Bullish continuation
+              </div>
+            </div>
+            <div class="project-icon-floating"><i class="fa-solid fa-chart-line"></i></div>
+            <span class="project-category">Machine Learning</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">IntelliPredict - Predictive Analytics Suite</h3>
+            <p class="project-desc">
+              Data science pipeline combining statistical preprocessing, regression models, and neural sequence models to forecast sequential time-series patterns with dynamic charting dashboards.
+            </p>
+            <div class="project-tags">
+              <span class="tag-badge">Python</span>
+              <span class="tag-badge">Scikit-Learn</span>
+              <span class="tag-badge">Pandas / NumPy</span>
+              <span class="tag-badge">Data Science</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" title="View Source Code">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+              </a>
+              <a href="#contact" class="btn btn-primary btn-sm" title="Explore Analytics Dashboard">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <span>Live Demo</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: DevConnect Portal -->
+        <div class="project-card glass-card reveal">
+          <div class="project-preview">
+            <div class="project-preview-bg">
+              <div class="project-code-art">
+                &gt; const api = await fetch('/api/collaborators');<br>
+                &gt; const repos = await getGitHubProfile(user);<br>
+                &gt; Status: 200 OK | Socket Connected<br>
+                &gt; Rendering dynamic developer feeds...
+              </div>
+            </div>
+            <div class="project-icon-floating"><i class="fa-solid fa-users-viewfinder"></i></div>
+            <span class="project-category">Full-Stack Web</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">DevConnect - Developer Community Portal</h3>
+            <p class="project-desc">
+              Responsive web application for developer collaboration, code sharing, project showcases, and team recruitment featuring clean UI cards, RESTful data integration, and GitHub API hooks.
+            </p>
+            <div class="project-tags">
+              <span class="tag-badge">JavaScript</span>
+              <span class="tag-badge">REST API</span>
+              <span class="tag-badge">Git &amp; GitHub</span>
+              <span class="tag-badge">Modern CSS</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" title="View Source Code">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+              </a>
+              <a href="#contact" class="btn btn-primary btn-sm" title="View Web Application">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <span>Live Demo</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       EDUCATION SECTION
+       ========================================================================== -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <span>04. Academic Background</span>
+        </div>
+        <h2 class="section-title">Education &amp; <span class="gradient-text">Qualifications</span></h2>
+        <p class="section-subtitle">
+          Structured foundation in computer science theory, mathematical problem solving, and modern software paradigms.
+        </p>
+      </div>
+
+      <div class="timeline-container">
+        <!-- Degree -->
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card glass-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Bachelor of Technology (B.Tech) / B.E. in Computer Science</h3>
+                <!-- Placeholder for College/University Name -->
+                <div class="timeline-org"><i class="fa-solid fa-building-columns"></i> Engineering Institute / University • Bhopal, MP, India</div>
+              </div>
+              <span class="timeline-badge">2022 &ndash; 2026 (Pursuing)</span>
+            </div>
+            <div class="timeline-body">
+              <p>
+                Pursuing comprehensive undergraduate coursework in core computer science, focusing on algorithm design, systems software, and artificial intelligence.
+              </p>
+              <ul>
+                <li><strong>Key Coursework:</strong> Data Structures &amp; Algorithms, Object-Oriented Programming (C++/Java), Database Management Systems (DBMS), Operating Systems, Computer Networks, Artificial Intelligence &amp; Machine Learning.</li>
+                <li><strong>Focus:</strong> Algorithmic efficiency, software engineering practices, model building, and research-driven technical projects.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- High School / Intermediate -->
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card glass-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Higher Secondary School Certificate (Class XII)</h3>
+                <div class="timeline-org"><i class="fa-solid fa-school"></i> Science Stream (Physics, Chemistry, Mathematics) • Bhopal, MP</div>
+              </div>
+              <span class="timeline-badge">Graduated with Distinction</span>
+            </div>
+            <div class="timeline-body">
+              <p>
+                Solid grounding in advanced mathematics, logical reasoning, and physical sciences forming the mathematical foundation for computer science and data structures.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- High School / Secondary -->
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card glass-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Secondary School Examination (Class X)</h3>
+                <div class="timeline-org"><i class="fa-solid fa-school"></i> High School Curriculum • Bhopal, Madhya Pradesh</div>
+              </div>
+              <span class="timeline-badge">First Division</span>
+            </div>
+            <div class="timeline-body">
+              <p>
+                Academic excellence across sciences, mathematics, and computer literacy with active participation in science exhibitions and Olympiads.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       EXPERIENCE / INTERNSHIPS SECTION
+       ========================================================================== -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">
+          <i class="fa-solid fa-briefcase"></i>
+          <span>05. Practical Experience</span>
+        </div>
+        <h2 class="section-title">Internships &amp; <span class="gradient-text">Work Experience</span></h2>
+        <p class="section-subtitle">
+          Real-world technical projects, hands-on development stints, and leadership roles.
+        </p>
+      </div>
+
+      <div class="timeline-container">
+        <!-- Experience 1 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card glass-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Software Engineering &amp; AI Project Intern</h3>
+                <!-- Clearly marked placeholder for company / organization -->
+                <div class="timeline-org"><i class="fa-solid fa-building"></i> Technology Training &amp; Virtual Internship Program</div>
+              </div>
+              <span class="timeline-badge">Recent / Present</span>
+            </div>
+            <div class="timeline-body">
+              <p>
+                Engaged in end-to-end development of data-centric software modules and machine learning workflows:
+              </p>
+              <ul>
+                <li>Implemented clean, modular Python and C++ code for algorithmic data processing tasks.</li>
+                <li>Trained and evaluated predictive ML models with feature engineering and cross-validation pipelines.</li>
+                <li>Collaborated using Git and GitHub version control, following code review workflows and agile sprint methodologies.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card glass-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Student Developer &amp; Technical Contributor</h3>
+                <div class="timeline-org"><i class="fa-solid fa-users"></i> Campus Technical Club &amp; Coding Community • Bhopal</div>
+              </div>
+              <span class="timeline-badge">Academic Tenure</span>
+            </div>
+            <div class="timeline-body">
+              <p>
+                Active member contributing to peer learning, hackathons, and software workshops:
+              </p>
+              <ul>
+                <li>Conducted sessions on problem-solving techniques in C, C++, and Python for junior peers.</li>
+                <li>Collaborated on open-source web projects and competitive programming practice rounds.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CERTIFICATES SECTION
+       ========================================================================== -->
+  <section class="section" id="certificates">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">
+          <i class="fa-solid fa-award"></i>
+          <span>06. Credentials</span>
+        </div>
+        <h2 class="section-title">Professional <span class="gradient-text">Certifications</span></h2>
+        <p class="section-subtitle">
+          Verified certificates validating proficiency in AI, Machine Learning, Data Structures, and Software Development.
+        </p>
+      </div>
+
+      <div class="cert-grid">
+        <!-- Cert 1 -->
+        <div class="cert-card glass-card reveal">
+          <div class="cert-header">
+            <div class="cert-icon"><i class="fa-solid fa-brain"></i></div>
+            <span class="cert-year">2024</span>
+          </div>
+          <h3 class="cert-title">Machine Learning Specialization &amp; Foundations</h3>
+          <div class="cert-issuer">Coursera / DeepLearning.AI</div>
+          <p style="color:var(--text-muted); font-size:0.85rem; margin-bottom:14px;">
+            Comprehensive training on supervised learning, neural networks, regularizations, and model evaluation metrics.
+          </p>
+          <div class="cert-footer">
+            <span style="font-size:0.75rem; color:var(--text-dim);"><i class="fa-solid fa-shield-halved"></i> Verified Credential</span>
+            <a href="https://www.linkedin.com/in/deepali-chouksey-306528332" target="_blank" rel="noopener noreferrer" class="cert-verify-link">
+              <span>View</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Cert 2 -->
+        <div class="cert-card glass-card reveal">
+          <div class="cert-header">
+            <div class="cert-icon"><i class="fa-solid fa-cubes"></i></div>
+            <span class="cert-year">2023 - 2024</span>
+          </div>
+          <h3 class="cert-title">Data Structures &amp; Algorithms in C++</h3>
+          <div class="cert-issuer">GeeksforGeeks / HackerRank</div>
+          <p style="color:var(--text-muted); font-size:0.85rem; margin-bottom:14px;">
+            Mastery of arrays, linked lists, trees, graphs, dynamic programming, and asymptotic complexity analysis.
+          </p>
+          <div class="cert-footer">
+            <span style="font-size:0.75rem; color:var(--text-dim);"><i class="fa-solid fa-shield-halved"></i> Verified Credential</span>
+            <a href="https://www.linkedin.com/in/deepali-chouksey-306528332" target="_blank" rel="noopener noreferrer" class="cert-verify-link">
+              <span>View</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Cert 3 -->
+        <div class="cert-card glass-card reveal">
+          <div class="cert-header">
+            <div class="cert-icon"><i class="fa-brands fa-python"></i></div>
+            <span class="cert-year">2023</span>
+          </div>
+          <h3 class="cert-title">Python for Data Science &amp; AI Development</h3>
+          <div class="cert-issuer">IBM / Cognitive Class</div>
+          <p style="color:var(--text-muted); font-size:0.85rem; margin-bottom:14px;">
+            Applied Python programming utilizing NumPy, Pandas, Matplotlib, and scikit-learn for end-to-end data pipelines.
+          </p>
+          <div class="cert-footer">
+            <span style="font-size:0.75rem; color:var(--text-dim);"><i class="fa-solid fa-shield-halved"></i> Verified Credential</span>
+            <a href="https://www.linkedin.com/in/deepali-chouksey-306528332" target="_blank" rel="noopener noreferrer" class="cert-verify-link">
+              <span>View</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Cert 4 -->
+        <div class="cert-card glass-card reveal">
+          <div class="cert-header">
+            <div class="cert-icon"><i class="fa-solid fa-code"></i></div>
+            <span class="cert-year">2023</span>
+          </div>
+          <h3 class="cert-title">Responsive Web Design &amp; JavaScript</h3>
+          <div class="cert-issuer">freeCodeCamp</div>
+          <p style="color:var(--text-muted); font-size:0.85rem; margin-bottom:14px;">
+            Hands-on certification covering responsive design architectures, CSS Flexbox/Grid, and modern ES6 scripting.
+          </p>
+          <div class="cert-footer">
+            <span style="font-size:0.75rem; color:var(--text-dim);"><i class="fa-solid fa-shield-halved"></i> Verified Credential</span>
+            <a href="https://www.linkedin.com/in/deepali-chouksey-306528332" target="_blank" rel="noopener noreferrer" class="cert-verify-link">
+              <span>View</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ACHIEVEMENTS SECTION
+       ========================================================================== -->
+  <section class="section" id="achievements">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">
+          <i class="fa-solid fa-trophy"></i>
+          <span>07. Accomplishments</span>
+        </div>
+        <h2 class="section-title">Milestones &amp; <span class="gradient-text">Achievements</span></h2>
+        <p class="section-subtitle">
+          Recognitions, competitive problem solving milestones, and leadership in technology initiatives.
+        </p>
+      </div>
+
+      <div class="achieve-grid">
+        <div class="achieve-card glass-card reveal">
+          <div class="achieve-icon-wrap"><i class="fa-solid fa-star"></i></div>
+          <div class="achieve-content">
+            <h4>200+ Algorithmic Problems Solved</h4>
+            <p>Active competitive programming across LeetCode, HackerRank, and GeeksforGeeks strengthening core DSA skills in C++ and Python.</p>
+          </div>
+        </div>
+
+        <div class="achieve-card glass-card reveal">
+          <div class="achieve-icon-wrap"><i class="fa-solid fa-lightbulb"></i></div>
+          <div class="achieve-content">
+            <h4>Hackathon Participant &amp; Project Finalist</h4>
+            <p>Built innovative AI/ML software prototypes tackling real-world problems under fast-paced collaborative deadlines.</p>
+          </div>
+        </div>
+
+        <div class="achieve-card glass-card reveal">
+          <div class="achieve-icon-wrap"><i class="fa-solid fa-medal"></i></div>
+          <div class="achieve-content">
+            <h4>Academic &amp; Technical Recognition</h4>
+            <p>Consistently maintained strong academic standing with commendations for software project exhibits and seminar presentations.</p>
+          </div>
+        </div>
+
+        <div class="achieve-card glass-card reveal">
+          <div class="achieve-icon-wrap"><i class="fa-solid fa-code-commit"></i></div>
+          <div class="achieve-content">
+            <h4>Active Open Source &amp; Git Contributor</h4>
+            <p>Maintained clean repositories, adhered to Git branch practices, and documented clear technical README guides.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CONTACT SECTION
+       ========================================================================== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">
+          <i class="fa-solid fa-paper-plane"></i>
+          <span>08. Get in Touch</span>
+        </div>
+        <h2 class="section-title">Let's Connect &amp; <span class="gradient-text">Build Together</span></h2>
+        <p class="section-subtitle">
+          I am currently open to internship opportunities, placement discussions, and engineering collaborations. Feel free to reach out!
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Info & Channels -->
+        <div class="contact-info-card glass-card reveal">
+          <div>
+            <h3 class="contact-info-title">Let's discuss an opportunity</h3>
+            <p class="contact-info-desc">
+              Whether you have an internship opening, a question about my projects, or want to discuss AI/ML innovations, my inbox is always open.
+            </p>
+
+            <div class="contact-details">
+              <!-- Email -->
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div>
+                  <div class="contact-label">Email Address</div>
+                  <div class="contact-value">
+                    <a href="mailto:deepalichouksey36@gmail.com">deepalichouksey36@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- LinkedIn -->
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div>
+                  <div class="contact-label">LinkedIn Profile</div>
+                  <div class="contact-value">
+                    <a href="https://www.linkedin.com/in/deepali-chouksey-306528332" target="_blank" rel="noopener noreferrer">deepali-chouksey-306528332</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Location -->
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <div class="contact-label">Current Location</div>
+                  <div class="contact-value">Bhopal, Madhya Pradesh, India</div>
+                </div>
+              </div>
+
+              <!-- GitHub Placeholder Link -->
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+                <div>
+                  <div class="contact-label">GitHub Repository</div>
+                  <div class="contact-value">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">github.com/deepalichouksey</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top: 30px;">
+            <button id="copy-email-btn" class="btn btn-secondary" style="width: 100%;">
+              <i class="fa-regular fa-copy"></i>
+              <span>Copy Email Address</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Contact Form Card -->
+        <div class="contact-form-card glass-card reveal">
+          <form id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="form-name" class="form-label">Your Full Name *</label>
+              <input type="text" id="form-name" class="form-control" placeholder="e.g. Alex Johnson" required>
+            </div>
+
+            <div class="form-group">
+              <label for="form-email" class="form-label">Your Email Address *</label>
+              <input type="email" id="form-email" class="form-control" placeholder="e.g. alex@company.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="form-subject" class="form-label">Subject</label>
+              <input type="text" id="form-subject" class="form-control" placeholder="e.g. Software Engineer Internship Opportunity">
+            </div>
+
+            <div class="form-group">
+              <label for="form-message" class="form-label">Your Message *</label>
+              <textarea id="form-message" class="form-control" rows="4" placeholder="Hello Deepali, we'd like to discuss an opportunity..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width:100%;">
+              <span>Send Message</span>
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+
+            <div id="form-feedback" class="form-feedback"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="gradient-text">Deepali Chouksey</span>
+          <p style="font-size:0.85rem; color:var(--text-dim); margin-top:4px; font-weight:400;">
+            Aspiring Software Engineer &amp; AI/ML Developer &bull; Bhopal, MP, India
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#home" class="footer-link">Home</a>
+          <a href="#about" class="footer-link">About</a>
+          <a href="#skills" class="footer-link">Skills</a>
+          <a href="#projects" class="footer-link">Projects</a>
+          <a href="#education" class="footer-link">Education</a>
+          <a href="#experience" class="footer-link">Experience</a>
+          <a href="#certificates" class="footer-link">Certificates</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Deepali Chouksey. All rights reserved. Crafted with clean code &amp; modern aesthetics.</p>
+        <button id="back-to-top" class="back-to-top" title="Back to top" aria-label="Back to top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/script.js"></script>
+</body>
+</html>
